@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitLife | Gym & Fitness</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span>🏋️</span> FitLife
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#workouts">Workout Plans</a>
+            <a href="#programs">Programs</a>
+            <a href="#membership">Membership</a>
+            <a href="#health">Health</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#membership" class="btn btn-small">Join Now</a>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="eyebrow">STRONGER · HEALTHIER · HAPPIER</p>
+
+            <h1>
+                Your Fitness Journey
+                <span>Starts Here.</span>
+            </h1>
+
+            <p class="hero-description">
+                Get personalized workout plans, expert fitness programs,
+                and trusted health information — all in one place.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#workouts" class="btn">Explore Plans →</a>
+                <a href="#programs" class="btn btn-outline">
+                    Explore Programs
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- BENEFITS -->
+    <section class="benefits">
+
+        <div class="benefit">
+            <span class="benefit-icon">♙</span>
+            <div>
+                <h3>Expert Guidance</h3>
+                <p>Follow structured workout plans.</p>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <span class="benefit-icon">↗</span>
+            <div>
+                <h3>Track Progress</h3>
+                <p>Stay motivated and keep improving.</p>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <span class="benefit-icon">♡</span>
+            <div>
+                <h3>Healthy Lifestyle</h3>
+                <p>Build sustainable healthy habits.</p>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <span class="benefit-icon">♧</span>
+            <div>
+                <h3>Supportive Community</h3>
+                <p>Grow together with FitLife.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- WORKOUT PLANS -->
+    <section class="section" id="workouts">
+
+        <div class="section-heading">
+            <div>
+                <h2>Workout Plans</h2>
+                <p>Find a workout that matches your experience and goals.</p>
+            </div>
+        </div>
+
+        <div class="card-grid">
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=700&q=80"
+                    alt="Person exercising with dumbbells">
+
+                <div class="card-body">
+                    <h3>Beginner Plan</h3>
+                    <p>Build consistency, learn proper form, and develop strength.</p>
+                    <button class="text-button"
+                            data-plan="Beginner Plan">
+                        View Plan →
+                    </button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80"
+                    alt="Person performing a fitness exercise">
+
+                <div class="card-body">
+                    <h3>Intermediate Plan</h3>
+                    <p>Improve endurance, strength, and exercise technique.</p>
+                    <button class="text-button"
+                            data-plan="Intermediate Plan">
+                        View Plan →
+                    </button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=700&q=80"
+                    alt="Modern gym with fitness equipment">
+
+                <div class="card-body">
+                    <h3>Advanced Plan</h3>
+                    <p>Explore structured training for experienced gym users.</p>
+                    <button class="text-button"
+                            data-plan="Advanced Plan">
+                        View Plan →
+                    </button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=80"
+                    alt="Person practicing yoga">
+
+                <div class="card-body">
+                    <h3>Home Workout</h3>
+                    <p>Exercise at home with minimal or no equipment.</p>
+                    <button class="text-button"
+                            data-plan="Home Workout">
+                        View Plan →
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- FITNESS PROGRAMS -->
+    <section class="section section-dark" id="programs">
+
+        <div class="section-heading">
+            <div>
+                <h2>Fitness Programs</h2>
+                <p>Choose a program that supports your personal goals.</p>
+            </div>
+        </div>
+
+        <div class="card-grid">
+
+            <article class="program-card">
+                <span>🔥</span>
+                <h3>Weight Management</h3>
+                <p>Build sustainable habits through movement and nutrition.</p>
+            </article>
+
+            <article class="program-card">
+                <span>💪</span>
+                <h3>Muscle Building</h3>
+                <p>Develop strength with progressive resistance training.</p>
+            </article>
+
+            <article class="program-card">
+                <span>⚡</span>
+                <h3>Strength & Conditioning</h3>
+                <p>Improve physical performance, strength, and endurance.</p>
+            </article>
+
+            <article class="program-card">
+                <span>🧘</span>
+                <h3>Flexibility & Mobility</h3>
+                <p>Work on mobility, balance, and comfortable movement.</p>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- MEMBERSHIP -->
+    <section class="section" id="membership">
+
+        <div class="section-heading">
+            <div>
+                <h2>Membership Plans</h2>
+                <p>Choose an option that fits your goals and budget.</p>
+            </div>
+        </div>
+
+        <div class="card-grid pricing-grid">
+
+            <article class="price-card">
+                <h3>Basic</h3>
+                <p>For beginners</p>
+                <div class="price">₹499 <small>/month</small></div>
+
+                <ul>
+                    <li>✓ Workout plans</li>
+                    <li>✓ Fitness tips</li>
+                    <li>✓ Health articles</li>
+                </ul>
+
+                <button class="btn btn-full join-btn"
+                        data-membership="Basic">
+                    Get Started
+                </button>
+            </article>
+
+            <article class="price-card popular">
+                <span class="popular-label">MOST POPULAR</span>
+
+                <h3>Standard</h3>
+                <p>For regular fitness seekers</p>
+                <div class="price">₹999 <small>/month</small></div>
+
+                <ul>
+                    <li>✓ All Basic features</li>
+                    <li>✓ Personalized programs</li>
+                    <li>✓ Nutrition guidance</li>
+                </ul>
+
+                <button class="btn btn-full join-btn"
+                        data-membership="Standard">
+                    Get Started
+                </button>
+            </article>
+
+            <article class="price-card">
+                <h3>Premium</h3>
+                <p>For dedicated fitness enthusiasts</p>
+                <div class="price">₹1,499 <small>/month</small></div>
+
+                <ul>
+                    <li>✓ All Standard features</li>
+                    <li>✓ Trainer support</li>
+                    <li>✓ Progress reviews</li>
+                </ul>
+
+                <button class="btn btn-full join-btn"
+                        data-membership="Premium">
+                    Get Started
+                </button>
+            </article>
+
+            <article class="price-card">
+                <h3>Lifetime</h3>
+                <p>For long-term goals</p>
+                <div class="price">₹5,999 <small>one-time</small></div>
+
+                <ul>
+                    <li>✓ Lifetime access</li>
+                    <li>✓ Workout resources</li>
+                    <li>✓ Community access</li>
+                </ul>
+
+                <button class="btn btn-full join-btn"
+                        data-membership="Lifetime">
+                    Get Started
+                </button>
+            </article>
+
+        </div>
+
+        <p class="disclaimer">
+            Sample prices for this website demonstration. No payment is collected.
+        </p>
+    </section>
+
+
+    <!-- HEALTH & WELLNESS -->
+    <section class="section section-light" id="health">
+
+        <div class="section-heading">
+            <div>
+                <h2>Health & Wellness</h2>
+                <p>Learn about nutrition, hydration, recovery, and well-being.</p>
+            </div>
+        </div>
+
+        <div class="card-grid">
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80"
+                    alt="Healthy balanced meal">
+
+                <div class="card-body">
+                    <span class="category">NUTRITION</span>
+                    <h3>Building a Balanced Diet</h3>
+                    <p>Learn how a variety of foods supports an active lifestyle.</p>
+                    <button class="text-button article-btn"
+                            data-article="nutrition">
+                        Read More →
+                    </button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1523362628745-0c100150b5f3?auto=format&fit=crop&w=700&q=80"
+                    alt="Water for hydration">
+
+                <div class="card-body">
+                    <span class="category">HYDRATION</span>
+                    <h3>Staying Hydrated</h3>
+                    <p>Understand hydration and how activity affects fluid needs.</p>
+                    <button class="text-button article-btn"
+                            data-article="hydration">
+                        Read More →
+                    </button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1511295742362-92c96b8f7d6b?auto=format&fit=crop&w=700&q=80"
+                    alt="Comfortable bedroom for sleep">
+
+                <div class="card-body">
+                    <span class="category">RECOVERY</span>
+                    <h3>Why Sleep Matters</h3>
+                    <p>Discover how sleep supports recovery and daily energy.</p>
+                    <button class="text-button article-btn"
+                            data-article="sleep">
+                        Read More →
+                    </button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=700&q=80"
+                    alt="Person meditating outdoors">
+
+                <div class="card-body">
+                    <span class="category">MENTAL WELLNESS</span>
+                    <h3>Mind and Body</h3>
+                    <p>Explore the connection between activity and mental well-being.</p>
+                    <button class="text-button article-btn"
+                            data-article="mental">
+                        Read More →
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+    <section class="cta" id="about">
+        <div>
+            <p class="eyebrow">READY TO GET STARTED?</p>
+            <h2>Your Health. Your Journey.</h2>
+            <p>Take the first step towards a stronger, healthier lifestyle.</p>
+            <a href="#membership" class="btn">Join FitLife →</a>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-grid">
+
+            <div>
+                <a href="#home" class="logo">
+                    <span>🏋️</span> FitLife
+                </a>
+                <p>Better Fitness. A Healthier You.</p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#workouts">Workout Plans</a>
+                <a href="#programs">Programs</a>
+                <a href="#membership">Membership</a>
+            </div>
+
+            <div>
+                <h4>Support</h4>
+                <a href="#health">Health Resources</a>
+                <a href="mailto:hello@fitlife.example">Contact Us</a>
+                <a href="#about">About Us</a>
+            </div>
+
+            <div>
+                <h4>Newsletter</h4>
+                <p>Get fitness tips and updates.</p>
+
+                <form id="newsletterForm">
+                    <input
+                        type="email"
+                        id="emailInput"
+                        placeholder="Your email address"
+                        aria-label="Email address"
+                        required>
+
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> FitLife. All rights reserved.</p>
+            <p>Move Better. Feel Better. Live Better.</p>
+        </div>
+
+    </footer>
+
+
+    <!-- INTERACTIVE MODAL -->
+    <dialog id="infoModal" class="modal">
+        <div class="modal-content">
+            <button id="closeModal" class="close-modal"
+                    aria-label="Close dialog">×</button>
+
+            <h2 id="modalTitle">FitLife</h2>
+            <div id="modalBody"></div>
+        </div>
+    </dialog>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
